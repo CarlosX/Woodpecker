@@ -245,7 +245,7 @@ namespace Woodpecker
                 "Platform: C#.NET 3.5\n" +
                 "Written by Nillus\n" +
                 "Mental support by Moogly\n" + 
-                "Copyright (C) 2008\n\n" + 
+                "Copyright (C) 2012\n\n" + 
                 "Credits:\n" +
                 "Joe 'Joeh' Hegarty - for his V9 emulator 'Thor', which has learnt me alot of stuff and actually inspired me to do Woodpecker III.\nThe system structure and stacking is based off Thor.",
                 "About Woodpecker",
