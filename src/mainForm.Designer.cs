@@ -99,14 +99,14 @@
             this.shutdownToolStripMenuItem});
             this.fileToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.application;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // shutdownToolStripMenuItem
             // 
             this.shutdownToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.cancel;
             this.shutdownToolStripMenuItem.Name = "shutdownToolStripMenuItem";
-            this.shutdownToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.shutdownToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.shutdownToolStripMenuItem.Text = "Shutdown";
             this.shutdownToolStripMenuItem.Click += new System.EventHandler(this.shutdownToolStripMenuItem_Click);
             // 
@@ -120,14 +120,14 @@
             this.ItemsToolStripMenuItem});
             this.serverToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.server;
             this.serverToolStripMenuItem.Name = "serverToolStripMenuItem";
-            this.serverToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.serverToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.serverToolStripMenuItem.Text = "Server";
             // 
             // sessionsToolStripMenuItem
             // 
             this.sessionsToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.server_lightning;
             this.sessionsToolStripMenuItem.Name = "sessionsToolStripMenuItem";
-            this.sessionsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.sessionsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.sessionsToolStripMenuItem.Text = "Sessions";
             this.sessionsToolStripMenuItem.Click += new System.EventHandler(this.sessionsToolStripMenuItem_Click);
             // 
@@ -139,21 +139,21 @@
             this.blacklistUnknownPacketSendersToolStripMenuItem});
             this.securityToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bullet_key;
             this.securityToolStripMenuItem.Name = "securityToolStripMenuItem";
-            this.securityToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.securityToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.securityToolStripMenuItem.Text = "Security";
             // 
             // connectionBlacklistEntriesToolStripMenuItem
             // 
             this.connectionBlacklistEntriesToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.book_open;
             this.connectionBlacklistEntriesToolStripMenuItem.Name = "connectionBlacklistEntriesToolStripMenuItem";
-            this.connectionBlacklistEntriesToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.connectionBlacklistEntriesToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
             this.connectionBlacklistEntriesToolStripMenuItem.Text = "Connection blacklist entries";
             // 
             // clearConnectionBlacklistToolStripMenuItem
             // 
             this.clearConnectionBlacklistToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bomb;
             this.clearConnectionBlacklistToolStripMenuItem.Name = "clearConnectionBlacklistToolStripMenuItem";
-            this.clearConnectionBlacklistToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.clearConnectionBlacklistToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
             this.clearConnectionBlacklistToolStripMenuItem.Text = "Clear connection blacklist";
             this.clearConnectionBlacklistToolStripMenuItem.Click += new System.EventHandler(this.clearConnectionBlacklistToolStripMenuItem_Click);
             // 
@@ -163,7 +163,7 @@
             this.blacklistUnknownPacketSendersToolStripMenuItem.CheckOnClick = true;
             this.blacklistUnknownPacketSendersToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.blacklistUnknownPacketSendersToolStripMenuItem.Name = "blacklistUnknownPacketSendersToolStripMenuItem";
-            this.blacklistUnknownPacketSendersToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.blacklistUnknownPacketSendersToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
             this.blacklistUnknownPacketSendersToolStripMenuItem.Text = "Blacklist unknown packet senders";
             this.blacklistUnknownPacketSendersToolStripMenuItem.Click += new System.EventHandler(this.blacklistUnknownPacketSendersToolStripMenuItem_Click);
             // 
@@ -171,7 +171,7 @@
             // 
             this.usersToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.group;
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.usersToolStripMenuItem.Text = "Users";
             this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
             // 
@@ -179,14 +179,14 @@
             // 
             this.RoomsToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.house;
             this.RoomsToolStripMenuItem.Name = "RoomsToolStripMenuItem";
-            this.RoomsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.RoomsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.RoomsToolStripMenuItem.Text = "Rooms";
             // 
             // ItemsToolStripMenuItem
             // 
             this.ItemsToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bricks;
             this.ItemsToolStripMenuItem.Name = "ItemsToolStripMenuItem";
-            this.ItemsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.ItemsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.ItemsToolStripMenuItem.Text = "Items";
             // 
             // loggingToolStripMenuItem
@@ -202,7 +202,7 @@
             this.clearLogToolStripMenuItem});
             this.loggingToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.script;
             this.loggingToolStripMenuItem.Name = "loggingToolStripMenuItem";
-            this.loggingToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.loggingToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.loggingToolStripMenuItem.Text = "Logging";
             // 
             // writeLogsToFileToolStripMenuItem
@@ -211,7 +211,7 @@
             this.writeLogsToFileToolStripMenuItem.CheckOnClick = true;
             this.writeLogsToFileToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.writeLogsToFileToolStripMenuItem.Name = "writeLogsToFileToolStripMenuItem";
-            this.writeLogsToFileToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.writeLogsToFileToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.writeLogsToFileToolStripMenuItem.Text = "Write logs to file";
             // 
             // logCommonWarningsToolStripMenuItem
@@ -220,7 +220,7 @@
             this.logCommonWarningsToolStripMenuItem.CheckOnClick = true;
             this.logCommonWarningsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logCommonWarningsToolStripMenuItem.Name = "logCommonWarningsToolStripMenuItem";
-            this.logCommonWarningsToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.logCommonWarningsToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.logCommonWarningsToolStripMenuItem.Text = "Log common warnings";
             this.logCommonWarningsToolStripMenuItem.Click += new System.EventHandler(this.logCommonWarningsToolStripMenuItem_Click);
             // 
@@ -230,7 +230,7 @@
             this.logCommonErrorsToolStripMenuItem.CheckOnClick = true;
             this.logCommonErrorsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logCommonErrorsToolStripMenuItem.Name = "logCommonErrorsToolStripMenuItem";
-            this.logCommonErrorsToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.logCommonErrorsToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.logCommonErrorsToolStripMenuItem.Text = "Log common errors";
             this.logCommonErrorsToolStripMenuItem.Click += new System.EventHandler(this.logCommonErrorsToolStripMenuItem_Click);
             // 
@@ -238,7 +238,7 @@
             // 
             this.logDebugToolStripMenuItem.CheckOnClick = true;
             this.logDebugToolStripMenuItem.Name = "logDebugToolStripMenuItem";
-            this.logDebugToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.logDebugToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.logDebugToolStripMenuItem.Text = "Log debug";
             this.logDebugToolStripMenuItem.Click += new System.EventHandler(this.logDebugToolStripMenuItem_Click);
             // 
@@ -253,7 +253,7 @@
             this.reactorsToolStripMenuItem});
             this.sessionsToolStripMenuItem1.Image = global::Woodpecker.Properties.Resources.user_gray;
             this.sessionsToolStripMenuItem1.Name = "sessionsToolStripMenuItem1";
-            this.sessionsToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
+            this.sessionsToolStripMenuItem1.Size = new System.Drawing.Size(190, 22);
             this.sessionsToolStripMenuItem1.Text = "Sessions";
             // 
             // logSessionCreatedestroyToolStripMenuItem
@@ -262,7 +262,7 @@
             this.logSessionCreatedestroyToolStripMenuItem.CheckOnClick = true;
             this.logSessionCreatedestroyToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logSessionCreatedestroyToolStripMenuItem.Name = "logSessionCreatedestroyToolStripMenuItem";
-            this.logSessionCreatedestroyToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.logSessionCreatedestroyToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.logSessionCreatedestroyToolStripMenuItem.Text = "Log session create/destroy";
             this.logSessionCreatedestroyToolStripMenuItem.Click += new System.EventHandler(this.logSessionCreatedestroyToolStripMenuItem_Click);
             // 
@@ -272,7 +272,7 @@
             this.logConnectionBlacklistEventsToolStripMenuItem.CheckOnClick = true;
             this.logConnectionBlacklistEventsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logConnectionBlacklistEventsToolStripMenuItem.Name = "logConnectionBlacklistEventsToolStripMenuItem";
-            this.logConnectionBlacklistEventsToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.logConnectionBlacklistEventsToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.logConnectionBlacklistEventsToolStripMenuItem.Text = "Log connection blacklist events";
             this.logConnectionBlacklistEventsToolStripMenuItem.Click += new System.EventHandler(this.logConnectionBlacklistEventsToolStripMenuItem_Click);
             // 
@@ -282,7 +282,7 @@
             this.logHaxEventsToolStripMenuItem.CheckOnClick = true;
             this.logHaxEventsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logHaxEventsToolStripMenuItem.Name = "logHaxEventsToolStripMenuItem";
-            this.logHaxEventsToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.logHaxEventsToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.logHaxEventsToolStripMenuItem.Text = "Log hax events";
             this.logHaxEventsToolStripMenuItem.Click += new System.EventHandler(this.logHaxEventsToolStripMenuItem_Click);
             // 
@@ -290,7 +290,7 @@
             // 
             this.logClientserverMessagesToolStripMenuItem.CheckOnClick = true;
             this.logClientserverMessagesToolStripMenuItem.Name = "logClientserverMessagesToolStripMenuItem";
-            this.logClientserverMessagesToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.logClientserverMessagesToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.logClientserverMessagesToolStripMenuItem.Text = "Log client>server messages";
             this.logClientserverMessagesToolStripMenuItem.Click += new System.EventHandler(this.logClientserverMessagesToolStripMenuItem_Click);
             // 
@@ -298,7 +298,7 @@
             // 
             this.logServerclientMessagesToolStripMenuItem.CheckOnClick = true;
             this.logServerclientMessagesToolStripMenuItem.Name = "logServerclientMessagesToolStripMenuItem";
-            this.logServerclientMessagesToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.logServerclientMessagesToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.logServerclientMessagesToolStripMenuItem.Text = "Log server>client messages";
             this.logServerclientMessagesToolStripMenuItem.Click += new System.EventHandler(this.logServerclientMessagesToolStripMenuItem_Click);
             // 
@@ -309,14 +309,14 @@
             this.logTargetMethodNotFoundErrorsToolStripMenuItem});
             this.reactorsToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bell;
             this.reactorsToolStripMenuItem.Name = "reactorsToolStripMenuItem";
-            this.reactorsToolStripMenuItem.Size = new System.Drawing.Size(244, 22);
+            this.reactorsToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
             this.reactorsToolStripMenuItem.Text = "Reactors";
             // 
             // logReactorErrorsToolStripMenuItem
             // 
             this.logReactorErrorsToolStripMenuItem.CheckOnClick = true;
             this.logReactorErrorsToolStripMenuItem.Name = "logReactorErrorsToolStripMenuItem";
-            this.logReactorErrorsToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
+            this.logReactorErrorsToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.logReactorErrorsToolStripMenuItem.Text = "Log reactor errors";
             this.logReactorErrorsToolStripMenuItem.Click += new System.EventHandler(this.logReactorErrorsToolStripMenuItem_Click);
             // 
@@ -324,7 +324,7 @@
             // 
             this.logTargetMethodNotFoundErrorsToolStripMenuItem.CheckOnClick = true;
             this.logTargetMethodNotFoundErrorsToolStripMenuItem.Name = "logTargetMethodNotFoundErrorsToolStripMenuItem";
-            this.logTargetMethodNotFoundErrorsToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
+            this.logTargetMethodNotFoundErrorsToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.logTargetMethodNotFoundErrorsToolStripMenuItem.Text = "Log \'target method not found\' errors";
             this.logTargetMethodNotFoundErrorsToolStripMenuItem.Click += new System.EventHandler(this.loglistenerNotFoundErrorsToolStripMenuItem_Click);
             // 
@@ -335,7 +335,7 @@
             this.logModerationToolStripMenuItem});
             this.usersToolStripMenuItem1.Image = global::Woodpecker.Properties.Resources.group1;
             this.usersToolStripMenuItem1.Name = "usersToolStripMenuItem1";
-            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
+            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(190, 22);
             this.usersToolStripMenuItem1.Text = "Users";
             // 
             // logLogonlogoffToolStripMenuItem
@@ -365,7 +365,7 @@
             this.logUserEnterleaveToolStripMenuItem});
             this.roomsToolStripMenuItem1.Image = global::Woodpecker.Properties.Resources.building;
             this.roomsToolStripMenuItem1.Name = "roomsToolStripMenuItem1";
-            this.roomsToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
+            this.roomsToolStripMenuItem1.Size = new System.Drawing.Size(190, 22);
             this.roomsToolStripMenuItem1.Text = "Rooms";
             // 
             // logInstanceCreatedestroyToolStripMenuItem
@@ -374,7 +374,7 @@
             this.logInstanceCreatedestroyToolStripMenuItem.CheckOnClick = true;
             this.logInstanceCreatedestroyToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.logInstanceCreatedestroyToolStripMenuItem.Name = "logInstanceCreatedestroyToolStripMenuItem";
-            this.logInstanceCreatedestroyToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
+            this.logInstanceCreatedestroyToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.logInstanceCreatedestroyToolStripMenuItem.Text = "Log instance create/destroy";
             this.logInstanceCreatedestroyToolStripMenuItem.Click += new System.EventHandler(this.logInstanceCreatedestroyToolStripMenuItem_Click);
             // 
@@ -382,7 +382,7 @@
             // 
             this.logUserEnterleaveToolStripMenuItem.CheckOnClick = true;
             this.logUserEnterleaveToolStripMenuItem.Name = "logUserEnterleaveToolStripMenuItem";
-            this.logUserEnterleaveToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
+            this.logUserEnterleaveToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.logUserEnterleaveToolStripMenuItem.Text = "Log user enter/leave";
             this.logUserEnterleaveToolStripMenuItem.Click += new System.EventHandler(this.logUserEnterleaveToolStripMenuItem_Click);
             // 
@@ -390,7 +390,7 @@
             // 
             this.clearLogToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bomb;
             this.clearLogToolStripMenuItem.Name = "clearLogToolStripMenuItem";
-            this.clearLogToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.clearLogToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.clearLogToolStripMenuItem.Text = "Clear log";
             this.clearLogToolStripMenuItem.Click += new System.EventHandler(this.clearLogToolStripMenuItem_Click);
             // 
@@ -401,7 +401,7 @@
             this.itemDefinitionEditorToolStripMenuItem});
             this.toolsToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.wand;
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // broadcoastMessageToolStripMenuItem
@@ -411,7 +411,7 @@
             this.cmdBroadcoastMessage});
             this.broadcoastMessageToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.transmit;
             this.broadcoastMessageToolStripMenuItem.Name = "broadcoastMessageToolStripMenuItem";
-            this.broadcoastMessageToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.broadcoastMessageToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.broadcoastMessageToolStripMenuItem.Text = "Broadcoast message";
             // 
             // txtBroadcoastMessage
@@ -419,7 +419,7 @@
             this.txtBroadcoastMessage.AutoSize = false;
             this.txtBroadcoastMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBroadcoastMessage.Name = "txtBroadcoastMessage";
-            this.txtBroadcoastMessage.Size = new System.Drawing.Size(400, 23);
+            this.txtBroadcoastMessage.Size = new System.Drawing.Size(400, 21);
             this.txtBroadcoastMessage.Text = "Woodpecker is up and running!";
             // 
             // cmdBroadcoastMessage
@@ -435,7 +435,7 @@
             // 
             this.itemDefinitionEditorToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.bricks;
             this.itemDefinitionEditorToolStripMenuItem.Name = "itemDefinitionEditorToolStripMenuItem";
-            this.itemDefinitionEditorToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.itemDefinitionEditorToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.itemDefinitionEditorToolStripMenuItem.Text = "Item Definition Editor";
             this.itemDefinitionEditorToolStripMenuItem.Click += new System.EventHandler(this.itemDefinitionEditorToolStripMenuItem_Click);
             // 
@@ -446,14 +446,14 @@
             this.registerToolStripMenuItem});
             this.helpToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.help;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Image = global::Woodpecker.Properties.Resources.vcard;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -461,7 +461,7 @@
             // 
             this.registerToolStripMenuItem.Enabled = false;
             this.registerToolStripMenuItem.Name = "registerToolStripMenuItem";
-            this.registerToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.registerToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.registerToolStripMenuItem.Text = "Register";
             // 
             // stripStatus
@@ -478,13 +478,13 @@
             // lblStatusHeader
             // 
             this.lblStatusHeader.Name = "lblStatusHeader";
-            this.lblStatusHeader.Size = new System.Drawing.Size(44, 17);
+            this.lblStatusHeader.Size = new System.Drawing.Size(42, 17);
             this.lblStatusHeader.Text = "Status:";
             // 
             // lblStatus
             // 
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(64, 17);
+            this.lblStatus.Size = new System.Drawing.Size(58, 17);
             this.lblStatus.Text = "notstarted";
             // 
             // txtLog
@@ -513,8 +513,8 @@
             this.Name = "mainForm";
             this.Text = "Woodpecker";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Closing += new System.ComponentModel.CancelEventHandler(this.mainForm_Closing);
             this.Load += new System.EventHandler(this.mainForm_Load);
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.mainForm_Closing);
             this.stripMenu.ResumeLayout(false);
             this.stripMenu.PerformLayout();
             this.stripStatus.ResumeLayout(false);
